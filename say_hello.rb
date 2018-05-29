@@ -1,9 +1,10 @@
 # Build your say_hello method here
 def say_hello(a="Hello Ruby Programmer!")
-  puts a
-end
-def say_hello(b)
-  puts "Hello "+b+"!"
+  if a=="Hello Ruby Programmer!"
+    puts a
+  else
+    puts "Hello "+a+"!"
+  end
 end
 say_hello("harshil")
 say_hello
