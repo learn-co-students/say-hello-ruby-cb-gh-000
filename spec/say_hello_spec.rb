@@ -1,4 +1,6 @@
 require_relative './spec_helper'
+def say_hello(name, language="Ruby Programmer")
+end
 
 describe "say_hello" do 
   
